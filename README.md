@@ -1,8 +1,8 @@
 🌌 Rick and Morty — Multiverso Interactivo
-Este proyecto es una SPA desarrollada con Next.js 14 que consume la API pública de Rick and Morty, permitiéndote explorar personajes, episodios y detalles en una interfaz moderna, estilizada y responsiva.
+Este proyecto es una SPA desarrollada con Next.js 15.3.1 que consume la API pública de Rick and Morty, permitiéndote explorar personajes, episodios y detalles en una interfaz moderna, estilizada y responsiva.
 
 🚀 Tecnologías utilizadas
-Next.js 14 – Framework de React para SSR y generación de páginas.
+Next.js 115.3.1 – Framework de React para SSR y generación de páginas.
 TypeScript – Tipado estático para mayor robustez del código.
 Tailwind CSS – Utilidad de clases para diseño rápido y responsivo.
 Framer Motion – Librería de animaciones para UI dinámicas.
@@ -26,20 +26,6 @@ yarn dev
 4. Abre el navegador
 Visita http://localhost:3000 para ver el proyecto en ejecución.
 
-🧠 Estructura del proyecto
-
-.
-├── app/                # Rutas y vistas (Next.js App Router)
-│   ├── login/          # Página de login
-│   ├── home/           # Página principal con los personajes
-│   ├── layout.tsx      # Layout global
-│   └── page.tsx        # Redirección por defecto a /login
-├── components/         # Componentes reutilizables (Navbar, Modals, Cards)
-├── styles/             # Archivos de estilo global (Tailwind)
-├── public/             # Imágenes y recursos públicos
-├── package.json        # Dependencias y scripts
-└── README.md
-🔐 Acceso de prueba
 Puedes ingresar al panel con las siguientes credenciales fijas (modo demo):
 
 Usuario: Test123
