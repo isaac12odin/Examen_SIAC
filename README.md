@@ -2,7 +2,7 @@
 Este proyecto es una SPA desarrollada con Next.js 15.3.1 que consume la API pública de Rick and Morty, permitiéndote explorar personajes, episodios y detalles en una interfaz moderna, estilizada y responsiva.
 
 🚀 Tecnologías utilizadas
-Next.js 115.3.1 – Framework de React para SSR y generación de páginas.
+Next.js 15.3.1 – Framework de React para SSR y generación de páginas.
 TypeScript – Tipado estático para mayor robustez del código.
 Tailwind CSS – Utilidad de clases para diseño rápido y responsivo.
 Framer Motion – Librería de animaciones para UI dinámicas.
