@@ -14,10 +14,9 @@ import {
  * LoginPage
  * 
  * Página de inicio de sesión simple con validación local.
- * Permite ingresar con usuario y contraseña y redirige al usuario a `/home` si las credenciales son correctas.
+ * Permite ingresar con usuario y contraseña y redirige al usuario a `/tarjetas` si las credenciales son correctas.
  * 
  * Características:
- * - Estilo moderno con Tailwind CSS
  * - Íconos de HeroIcons
  * - Mostrar/ocultar contraseña
  * - Validación de usuario/contraseña fija (Test123 / password@2)
@@ -43,10 +42,9 @@ export default function LoginPage() {
     e.preventDefault();
   
     if (user === 'Test123' && pass === 'password@2') {
-      // 1️⃣ Marca la sesión como válida (muy básico, sólo demo)
+
       localStorage.setItem('auth', 'ok');
   
-      // 2️⃣ Envía al usuario a la página protegida
       router.push('/tarjetas');
     } else {
       setError('Usuario o contraseña incorrectos');
