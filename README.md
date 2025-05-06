@@ -1,40 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+🌌 Rick and Morty — Multiverso Interactivo
+Este proyecto es una SPA desarrollada con Next.js 14 que consume la API pública de Rick and Morty, permitiéndote explorar personajes, episodios y detalles en una interfaz moderna, estilizada y responsiva.
 
-## Getting Started
+🚀 Tecnologías utilizadas
+Next.js 14 – Framework de React para SSR y generación de páginas.
+TypeScript – Tipado estático para mayor robustez del código.
+Tailwind CSS – Utilidad de clases para diseño rápido y responsivo.
+Framer Motion – Librería de animaciones para UI dinámicas.
+HeroIcons – Iconografía moderna para React.
+next/font – Optimización automática de fuentes (Geist Sans y Mono).
+API Rick and Morty – Datos oficiales públicos para personajes y episodios.
+⚙️ Cómo iniciar el proyecto
+1. Clona el repositorio
+git clone https://github.com/isaac12odin/Examen_SIAC.git
+cd Examen_SIAC
 
-First, run the development server:
+2. Instala las dependencias
 
-```bash
+npm install
+# o
+yarn install
+3. Ejecuta el servidor de desarrollo
 npm run dev
-# or
+# o
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+4. Abre el navegador
+Visita http://localhost:3000 para ver el proyecto en ejecución.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🧠 Estructura del proyecto
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+.
+├── app/                # Rutas y vistas (Next.js App Router)
+│   ├── login/          # Página de login
+│   ├── home/           # Página principal con los personajes
+│   ├── layout.tsx      # Layout global
+│   └── page.tsx        # Redirección por defecto a /login
+├── components/         # Componentes reutilizables (Navbar, Modals, Cards)
+├── styles/             # Archivos de estilo global (Tailwind)
+├── public/             # Imágenes y recursos públicos
+├── package.json        # Dependencias y scripts
+└── README.md
+🔐 Acceso de prueba
+Puedes ingresar al panel con las siguientes credenciales fijas (modo demo):
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Usuario: Test123
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+Contraseña: password@2
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Estas credenciales son temporales y están codificadas directamente. En producción se recomienda implementar autenticación segura con backend.
 
-## Learn More
+📦 Despliegue
+Puedes desplegar este proyecto fácilmente con Vercel (creadores de Next.js):
 
-To learn more about Next.js, take a look at the following resources:
+Haz login en vercel.com
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+Importa este repositorio desde GitHub
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Vercel detectará automáticamente que es una app de Next.js
 
-## Deploy on Vercel
+¡Listo! Deploy en la nube.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📚 Recursos útiles
+Documentación de Next.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Tailwind CSS
+
+Framer Motion
+
+Rick and Morty API
+
+✨ Autor
+Isaac Serrano
+Frontend Developer & UX Enthusiast
+GitHub: @isaac12odin
+
+📄 Licencia
+MIT — Puedes usar este código con fines educativos y personales.
